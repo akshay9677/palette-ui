@@ -1,4 +1,4 @@
-import { Button } from "ui";
+import { Button } from "@palette-ui/core";
 
 export default function Docs() {
   return (

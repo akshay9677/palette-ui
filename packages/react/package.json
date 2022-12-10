@@ -1,13 +1,12 @@
 {
-  "name": "ui",
+  "name": "@palette-ui/core",
   "version": "0.0.0",
-  "main": "./index.tsx",
-  "types": "./index.tsx",
+  "main": "./index.js",
   "license": "MIT",
-  "scripts": {
-    "lint": "TIMING=1 eslint \"**/*.ts*\""
-  },
   "devDependencies": {
+    "@emotion/react": "^11.10.5",
+    "@emotion/styled": "^11.10.5",
+    "@palette-ui/theme": "*",
     "@types/react": "^17.0.37",
     "@types/react-dom": "^17.0.11",
     "eslint": "^7.32.0",
@@ -15,5 +14,8 @@
     "react": "^18.2.0",
     "tsconfig": "*",
     "typescript": "^4.5.2"
+  },
+  "dependencies": {
+    "dlv": "^1.1.3"
   }
 }
