@@ -37,7 +37,7 @@ const colors = {
   red100: "#FDE2E9",
   red200: "#FAA8BC",
   red300: "#F76E8F",
-  red400: "#F31B4F",
+  red400: "#E90C41",
   red500: "#BD0A35",
   red600: "#7E0723",
   red700: "#2C020C",

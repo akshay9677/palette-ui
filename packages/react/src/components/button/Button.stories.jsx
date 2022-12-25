@@ -4,13 +4,15 @@ import React from "react";
 
 import Button from "./Button";
 
-const Default = {
+const DefaultObj = {
   title: "Components/Button",
   component: Button,
-  args: {},
-  argTypes: {},
 };
 
-export default Default;
+export default DefaultObj;
 
-export const Primary = ({ ...args }) => <Button>Button</Button>;
+const Template = (args) => {
+  return <Button {...args}>Click Me</Button>;
+};
+
+export const Primary = Template.bind({});

@@ -6,7 +6,12 @@ module.exports = {
     "../../react/src/components/**/*.stories.mdx",
     "../../react/src/components/**/*.stories.@(js|jsx|ts|tsx)",
   ],
-  addons: ["@storybook/addon-a11y", "storybook-dark-mode"],
+  addons: [
+    "@storybook/addon-docs",
+    "@storybook/addon-essentials",
+    "@storybook/addon-a11y",
+    "storybook-dark-mode",
+  ],
   typescript: {
     reactDocgen: "none",
   },

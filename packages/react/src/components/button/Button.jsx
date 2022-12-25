@@ -3,11 +3,18 @@ import { getComponentTheme } from "../theme/theme-utils";
 import styled from "@emotion/styled";
 import PropTypes from "prop-types";
 
-const Button = (props) => {
+const Button = (props = {}) => {
   const [styles, setStyles] = useState({});
+  const appearanceIntent = `${props.intent}-${props.appearance}`;
   useEffect(() => {
-    setStyles(getComponentTheme({ name: "Button", props }));
-  }, []);
+    setStyles(
+      getComponentTheme({
+        name: "Button",
+        props: { ...props, appearanceIntent },
+      })
+    );
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [props]);
   const Element = styled("button")`
     ${styles}
   `;
@@ -15,11 +22,17 @@ const Button = (props) => {
 };
 
 Button.propTypes = {
-  intent: PropTypes.oneOf(["default", "danger", "success"]),
+  appearance: PropTypes.oneOf(["primary", "secondary"]),
+  intent: PropTypes.oneOf(["info", "success", "danger"]),
+  size: PropTypes.oneOf(["small", "medium", "large"]),
+  rounded: PropTypes.bool,
 };
 
 Button.defaultProps = {
-  intent: "default",
+  appearance: "primary",
+  intent: "info",
+  size: "medium",
+  rounded: false,
 };
 
 export default Button;
