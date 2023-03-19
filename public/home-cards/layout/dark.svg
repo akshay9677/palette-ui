@@ -1,0 +1,68 @@
+<svg width="200" height="127" viewBox="0 0 200 127" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect x="0.5" y="0.5" width="199" height="126" rx="9.5" fill="#252B32" stroke="#0F1215"/>
+<g clip-path="url(#clip0_35_575)">
+<mask id="mask0_35_575" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="200" height="127">
+<rect width="200" height="127" rx="10" fill="url(#paint0_radial_35_575)"/>
+</mask>
+<g mask="url(#mask0_35_575)">
+<rect x="6.5" y="8.5" width="31" height="22" stroke="#515D6C"/>
+<rect x="37.5" y="8.5" width="31" height="22" stroke="#515D6C"/>
+<rect x="68.5" y="8.5" width="31" height="22" stroke="#515D6C"/>
+<rect x="99.5" y="8.5" width="31" height="22" stroke="#515D6C"/>
+<rect x="130.5" y="8.5" width="31" height="22" stroke="#515D6C"/>
+<rect x="161.5" y="8.5" width="31" height="22" stroke="#515D6C"/>
+<rect x="6.5" y="-13.5" width="31" height="22" stroke="#515D6C"/>
+<rect x="37.5" y="-13.5" width="31" height="22" stroke="#515D6C"/>
+<rect x="68.5" y="-13.5" width="31" height="22" stroke="#515D6C"/>
+<rect x="99.5" y="-13.5" width="31" height="22" stroke="#515D6C"/>
+<rect x="130.5" y="-13.5" width="31" height="22" stroke="#515D6C"/>
+<rect x="161.5" y="-13.5" width="31" height="22" stroke="#515D6C"/>
+<rect x="6.5" y="30.5" width="31" height="22" stroke="#515D6C"/>
+<rect x="37.5" y="30.5" width="31" height="22" stroke="#515D6C"/>
+<rect x="68.5" y="30.5" width="31" height="22" stroke="#515D6C"/>
+<rect x="99.5" y="30.5" width="31" height="22" stroke="#515D6C"/>
+<rect x="130.5" y="30.5" width="31" height="22" stroke="#515D6C"/>
+<rect x="161.5" y="30.5" width="31" height="22" stroke="#515D6C"/>
+<rect x="6.5" y="52.5" width="31" height="22" stroke="#515D6C"/>
+<rect x="37.5" y="52.5" width="31" height="22" stroke="#515D6C"/>
+<rect x="68.5" y="52.5" width="31" height="22" stroke="#515D6C"/>
+<rect x="99.5" y="52.5" width="31" height="22" stroke="#515D6C"/>
+<rect x="130.5" y="52.5" width="31" height="22" stroke="#515D6C"/>
+<rect x="161.5" y="52.5" width="31" height="22" stroke="#515D6C"/>
+<rect x="6.5" y="74.5" width="31" height="22" stroke="#515D6C"/>
+<rect x="37.5" y="74.5" width="31" height="22" stroke="#515D6C"/>
+<rect x="68.5" y="74.5" width="31" height="22" stroke="#515D6C"/>
+<rect x="99.5" y="74.5" width="31" height="22" stroke="#515D6C"/>
+<rect x="130.5" y="74.5" width="31" height="22" stroke="#515D6C"/>
+<rect x="161.5" y="74.5" width="31" height="22" stroke="#515D6C"/>
+<rect x="6.5" y="96.5" width="31" height="22" stroke="#515D6C"/>
+<rect x="37.5" y="96.5" width="31" height="22" stroke="#515D6C"/>
+<rect x="68.5" y="96.5" width="31" height="22" stroke="#515D6C"/>
+<rect x="99.5" y="96.5" width="31" height="22" stroke="#515D6C"/>
+<rect x="130.5" y="96.5" width="31" height="22" stroke="#515D6C"/>
+<rect x="161.5" y="96.5" width="31" height="22" stroke="#515D6C"/>
+<rect x="6.5" y="119.5" width="31" height="22" stroke="#515D6C"/>
+<rect x="37.5" y="119.5" width="31" height="22" stroke="#515D6C"/>
+<rect x="68.5" y="119.5" width="31" height="22" stroke="#515D6C"/>
+<rect x="99.5" y="119.5" width="31" height="22" stroke="#515D6C"/>
+<rect x="130.5" y="119.5" width="31" height="22" stroke="#515D6C"/>
+<rect x="161.5" y="119.5" width="31" height="22" stroke="#515D6C"/>
+</g>
+</g>
+<line x1="161.5" y1="24.5" x2="161.5" y2="105.5" stroke="#8290A1" stroke-linecap="square" stroke-dasharray="2 2"/>
+<line x1="36.5" y1="24.5" x2="36.5" y2="105.5" stroke="#8290A1" stroke-linecap="square" stroke-dasharray="2 2"/>
+<line x1="170.501" y1="30.5007" x2="27.5009" y2="30.6966" stroke="#8290A1" stroke-linecap="square" stroke-dasharray="2 2"/>
+<line x1="170.501" y1="96.5007" x2="27.5009" y2="96.6966" stroke="#8290A1" stroke-linecap="square" stroke-dasharray="2 2"/>
+<rect x="86" y="16" width="27" height="8" rx="2" fill="#3B444F"/>
+<rect x="89" y="19" width="21" height="2" rx="0.3" fill="white"/>
+<rect x="48" y="39" width="104" height="50" rx="3" fill="#0F1215"/>
+<defs>
+<radialGradient id="paint0_radial_35_575" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(100 63.5) rotate(90) scale(60.5 95.2756)">
+<stop stop-color="#D9D9D9"/>
+<stop offset="1" stop-color="#D9D9D9" stop-opacity="0"/>
+</radialGradient>
+<clipPath id="clip0_35_575">
+<rect width="200" height="127" fill="white"/>
+</clipPath>
+</defs>
+</svg>

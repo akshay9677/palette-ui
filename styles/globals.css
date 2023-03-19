@@ -24,7 +24,7 @@
   --primary: #000000;
   --secondary: #ffffff;
   --primary-content: #ffffff;
-  --shadow-inset: #3b444f;
+  --shadow-inset: #0f1215;
 
   --gray-01: #0f1215;
   --gray-02: #252b32;
@@ -36,6 +36,17 @@
   --gray-08: #bbc4cd;
   --gray-09: #d9dee3;
   --gray-10: #eef0f2;
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+body {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
 }
 
 input::-webkit-outer-spin-button,

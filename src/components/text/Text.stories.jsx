@@ -12,6 +12,7 @@ const DefaultObj = {
       options: [
         "xs",
         "sm",
+        "lg",
         "base",
         "xl",
         "2xl",
@@ -19,10 +20,14 @@ const DefaultObj = {
         "4xl",
         "5xl",
         "6xl",
-        "7xl",
       ],
       control: { type: "radio" },
-      defaultValue: "3xl",
+      defaultValue: "base",
+    },
+    weight: {
+      options: ["light", "medium", "bold", "bolder"],
+      control: { type: "radio" },
+      defaultValue: "medium",
     },
   },
 };

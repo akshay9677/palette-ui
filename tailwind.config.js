@@ -2,23 +2,26 @@ const defaultTheme = require("tailwindcss/defaultTheme");
 
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: [
-    "./pages/**/*.{js,ts,jsx,tsx}",
-    "./src/components/**/*.{js,ts,jsx,tsx}",
-  ],
+  content: ["./pages/**/*.{js,ts,jsx,tsx}", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     extend: {
       fontSize: {
         xs: "8px",
         sm: "10px",
-        base: "12px",
-        xl: "14px",
-        "2xl": "16px",
-        "3xl": "20px",
-        "4xl": "24px",
-        "5xl": "32px",
-        "6xl": "40px",
-        "7xl": "48px",
+        md: "12px",
+        base: "14px",
+        xl: "16px",
+        "2xl": "20px",
+        "3xl": "24px",
+        "4xl": "32px",
+        "5xl": "40px",
+        "6xl": "48px",
+      },
+      fontWeight: {
+        light: "300",
+        medium: "400",
+        bold: "500",
+        bolder: "600",
       },
       colors: {
         primary: "var(--primary)",

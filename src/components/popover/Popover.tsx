@@ -21,9 +21,8 @@ const Popover: React.FC<PopoverProps> = ({
 }) => {
   const [referenceElement, setReferenceElement] =
     useState<HTMLDivElement | null>(null);
-  const [popperElement, setPopperElement] = useState<HTMLDivElement | null>(
-    null
-  );
+  const [popperElement, setPopperElement] =
+    useState<HTMLDivElement | null>(null);
   const [showPopover, setShowPopover] = useState(false);
   const popoverParentRef = useRef<HTMLDivElement>(null);
 
@@ -70,7 +69,7 @@ const Popover: React.FC<PopoverProps> = ({
       currStyle = { ...currStyle, width: `${refWidth}px` };
     }
     return currStyle;
-  }, [referenceElement, styles]);
+  }, [childRef, contentWidth, styles.popper]);
 
   return (
     <>
